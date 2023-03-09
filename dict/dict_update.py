@@ -1,8 +1,8 @@
 # coding:utf-8
 
 user = {'username': 'dewei', 'age': 33}
-xiaomu = {'username': '小慕', 'age': 10, 'top': 175, 'sex': '男'}
-user.update(xiaomu)
+xx = {'username': 'pot', 'age': 10, 'top': 175, 'sex': '男'}
+user.update(xx)
 print(user)
 
 value = user.setdefault('username', 'xiaoyun')
@@ -13,7 +13,7 @@ print(user, value)
 # user['top'] = 174
 #
 # print(user)
-# user['username'] = '小慕'
+# user['username'] = 'pot'
 # print(user)
 # user['top'] = 175
 # user['age'] = 10

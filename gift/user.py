@@ -122,6 +122,6 @@ class User(Base):
 if __name__ == '__main__':
     gift_path = os.path.join(os.getcwd(), 'storage', 'gift.json')
     user_path = os.path.join(os.getcwd(), 'storage', 'user.json')
-    user = User('小慕', user_path, gift_path)
+    user = User('pot', user_path, gift_path)
     user.choice_gift()
 

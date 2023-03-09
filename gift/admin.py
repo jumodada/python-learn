@@ -80,7 +80,7 @@ if __name__ == '__main__':
     gift_path = os.path.join(os.getcwd(), 'storage', 'gift.json')
     user_path = os.path.join(os.getcwd(), 'storage', 'user.json')
     admin = Admin('dewei', user_path, gift_path)
-    # admin.update_user_role(username='小慕', role='normals')
+    # admin.update_user_role(username='pot', role='normals')
     admin.update_gift(first_level='level1', second_level='level2',
                       gift_name='iphone11', gift_count=1000)
 

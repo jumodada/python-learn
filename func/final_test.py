@@ -231,7 +231,7 @@ students = {
         'sex': 'boy'
     },
     2: {
-        'name': '小慕',
+        'name': 'pot',
         'age': 10,
         'class_number': 'B',
         'sex': 'boy'
@@ -273,7 +273,7 @@ if __name__ == '__main__':
     print('-------')
     student_info.updates([
         {1: {'name': 'dewei.zhang', 'age': 18, 'class_number': 'A', 'sex': 'boy'}},
-        {2: {'name': '小慕同学', 'age': 18, 'class_number': 'A', 'sex': 'boy'}}
+        {2: {'name': 'pot同学', 'age': 18, 'class_number': 'A', 'sex': 'boy'}}
     ])
     student_info.get_all_students()
     result = student_info.search_users(name='d')
