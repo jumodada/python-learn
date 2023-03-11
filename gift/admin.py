@@ -47,6 +47,7 @@ class Admin(Base):
         self.__check('permission')
         self._Base__write_user(username=username, role=role)
 
+
     def update_user_active(self, username):
         self.__check('permission')
         self._Base__change_active(username=username)
@@ -74,10 +75,9 @@ class Admin(Base):
                                 gift_count=gift_count,
                                 is_admin=True)
 
-
-
 if __name__ == '__main__':
     gift_path = os.path.join(os.getcwd(), 'storage', 'gift.json')
+    print(gift_path)
     user_path = os.path.join(os.getcwd(), 'storage', 'user.json')
     admin = Admin('dewei', user_path, gift_path)
     # admin.update_user_role(username='pot', role='normals')

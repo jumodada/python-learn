@@ -263,6 +263,9 @@ class Base(object):
         self.__save(gifts, self.gift_json)
         return delete_gift_data
 
+    def delete_gift(self,first_level, second_level, gift_name):
+        return self.__delete_gift(first_level, second_level, gift_name)
+
     def __save(self, data, path):
         json_data = json.dumps(data)
         with open(path, 'w') as f:
@@ -273,6 +276,7 @@ if __name__ == '__main__':
 
     gift_path = os.path.join(os.getcwd(), 'storage', 'gift.json')
     user_path = os.path.join(os.getcwd(), 'storage', 'user.json')
+    print(os.getcwd())
     print(gift_path)
     print(user_path)
     base = Base(user_json=user_path, gift_json=gift_path)

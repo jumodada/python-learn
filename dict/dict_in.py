@@ -8,5 +8,3 @@ print(bool(default_dict.get('a')))
 print(bool(default_dict.get('b')))
 print('f' in default_dict)
 print('f' not in default_dict)
-
-
