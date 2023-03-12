@@ -1,0 +1,7 @@
+Django==3.2.6
+django-celery-beat~=2.2.1
+django-filter
+django-environ==0.4.5
+django-prometheus
+djangorestframework==3.13.1
+django-rest-framework-braces
