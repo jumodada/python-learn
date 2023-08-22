@@ -1,0 +1,55 @@
+<mxfile host="65bd71144e">
+    <diagram id="gG-zp1lA3XQx52qjoHq5" name="第 1 页">
+        <mxGraphModel dx="856" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 25px; line-height: 34px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #a31515;&quot;&gt;&quot;红莲斗篷&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #a31515;&quot;&gt;&quot;辉月&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #a31515;&quot;&gt;&quot;破军&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #a31515;&quot;&gt;&quot;魔女斗篷&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #a31515;&quot;&gt;&quot;影刃之足&quot;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="170" width="210" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;处理逻辑函数&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="50" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Map" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="265" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=14;exitX=0.363;exitY=1.008;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="210" as="sourcePoint"/>
+                        <mxPoint x="389" y="260" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="知道了应该按照什么逻辑处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="305" y="165" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="4">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="290" y="430" as="sourcePoint"/>
+                        <mxPoint x="340" y="380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="知道了要处理谁" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="265" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="endArrow=classic;html=1;fontSize=14;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="220" y="250" as="sourcePoint"/>
+                        <mxPoint x="350" y="250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="" style="endArrow=classic;html=1;fontSize=14;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="350" y="230" as="sourcePoint"/>
+                        <mxPoint x="350" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="" style="endArrow=classic;html=1;fontSize=14;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="440" y="140" as="sourcePoint"/>
+                        <mxPoint x="440" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
